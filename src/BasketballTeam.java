@@ -42,12 +42,6 @@ public class BasketballTeam extends SportsTeam {
     /**
      * Sets the stats of the basketball team
      * 
-     * @param wins                amount of wins to set
-     * @param losses              amount of wins to set
-     * @param fieldGoals          amount of wins to set
-     * @param fieldGoalsAttempted amount of wins to set
-     * @param freeThrows          amount of wins to set
-     * @param freeThrowsAttempted amount of wins to set
      */
     public void setStats(int wins, int losses, int fieldGoals, int fieldGoalsAttempted, int freeThrows,
             int freeThrowsAttempted) {
@@ -61,7 +55,7 @@ public class BasketballTeam extends SportsTeam {
     }
 
     /**
-     * @return double[]
+     * @return double[] list of stats
      */
     @Override
     public double[] getStats() {
